@@ -4,16 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass sass/style.scss -o ./ --source-map true --output-style expanded --indent-type tab --indent-width 1 -w",
-    "compile": "node-sass sass/style.scss -o ./ && stylelint 'style.css' --fix || true && stylelint 'style.css' --fix"
+    "watch": "node-sass sass/style.scss -o sass/ --indent-width 1 -w --output-style compressed",
+    "css": "node-sass sass/style.scss -o sass/ --output-style compressed",
+    "bootstrap": "node-sass sass/bootstrap.scss -o sass/ --output-style compressed"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^9.0.0",
-    "stylelint": "^15.10.3"
-  },
-  "devDependencies": {
-    "stylelint-config-standard": "^34.0.0"
+    "node-sass": "^9.0.0"
   }
 }

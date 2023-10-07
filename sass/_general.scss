@@ -5,30 +5,71 @@
   padding: 0 12px;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
+$primary: #005FAD;
+$secondary: #6D6E71;
+$secondary-two: #707070;
+$alto: #D8D8D8;
+$white: #FFFFFF;
+
+.btn-base {
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.2px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+}
+
+.btn-primary {
+  @extend .btn-base;
+  background-color: $primary;
+  &:hover{
+    background-color: $primary; 
+  }
+}
+
+.btn-light {
+  @extend .btn-base;
+  background-color: $white;
+  color: $primary;
+}
+
 h1 {
   font-size: 44px;
+  margin: 0;
 }
 
 h2 {
   font-size: 36px;
+  margin: 0;
 }
 
 h3 {
   font-size: 28px;
+  margin: 0;
 }
 
 h4 {
   font-size: 24px;
+  margin: 0;
 }
 
-h5 {
+.size-one {
   font-size: 20px;
 }
 
-h6 {
+.size-two {
   font-size: 15px;
 }
 
-h7 {
+.size-three {
   font-size: 14px;
 }

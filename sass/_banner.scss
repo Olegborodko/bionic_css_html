@@ -1,0 +1,22 @@
+.section-banner {
+  height: 613px;
+  background-image: url("img/hero_bg.png");
+
+  h1 {
+    font-family: Univia Pro;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    color: $secondary-two;
+
+    span {
+      color: $primary;
+
+      i {
+        font-size: 18px;
+        position: relative;
+        top: -16px;
+      }
+    }
+  }
+}

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass sass/style.scss -o sass/ --indent-width 1 -w --output-style compressed",
-    "css": "node-sass sass/style.scss -o sass/ --output-style compressed",
+    "watch": "node-sass sass/style.scss -o ./ --indent-width 1 -w --output-style compressed",
+    "css": "node-sass sass/style.scss -o ./ --output-style compressed",
     "bootstrap": "node-sass sass/bootstrap.scss -o sass/ --output-style compressed"
   },
   "author": "",

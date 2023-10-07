@@ -3,10 +3,28 @@
   height: 55px;
 }
 
-.block-top-menu {
+.section-top-menu {
   display: flex;
   width: 100%;
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+  padding: 3px 0;
+
+  .navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    padding: 0;
+    margin-right: 28px;
+    color: $secondary;
+  }
+
+  .navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+  }
+
 }

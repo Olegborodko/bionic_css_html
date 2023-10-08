@@ -1,5 +1,4 @@
 .section-banner {
-  height: 613px;
   background-image: url("img/hero_bg.png");
   background-size: cover;
 
@@ -12,13 +11,8 @@
     padding-top: 159px;
 
     span {
+      display: inline-block;
       color: $primary;
-
-      i {
-        font-size: 18px;
-        position: relative;
-        top: -16px;
-      }
     }
   }
 

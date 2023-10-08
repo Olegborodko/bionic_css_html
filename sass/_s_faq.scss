@@ -1,0 +1,87 @@
+.section-faq {
+  background-image: url("img/bg_faq.png");
+  background-size: cover;
+
+  h2 {
+    color: $primary;
+    text-align: center;
+    font-family: "Univia Pro";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 95px 0 80px;
+  }
+
+  #accordion {
+    .accordion {
+      margin-bottom: 27px;
+    }
+
+    .accordion-item {
+      background-color: transparent;
+      border: 0;
+    }
+
+    .accordion-title {
+      position: relative;
+      display: block;
+      color: $primary;
+      font-family: "Univia Pro";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+      box-shadow: none;
+      padding: 0 0 0 74px;
+      width: 100%;
+      text-align: left;
+
+      div {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      div.minus {
+        background-image: url("./img/minus_.svg");
+      }
+
+      div.plus {
+        background-image: url("./img/plus_.svg");
+      }
+
+      &[aria-expanded="false"] {
+        div.minus {
+          display: none;
+        }
+
+        div.plus {
+          display: inline-block;
+        }
+      }
+
+      &[aria-expanded="true"] {
+        div.minus {
+          display: inline-block;
+        }
+
+        div.plus {
+          display: none;
+        }
+      }
+    }
+
+    .accordion-body {
+      padding: 16px 0 0 74px;
+      color: $secondary;
+      font-family: "Univia Pro";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%;
+    }
+  }
+}

@@ -5,11 +5,12 @@
       rehabilitation.
     </h4>
     <p>
-      The InMotion<i class="fa fa-registered" aria-hidden="true"></i> Arm and InMotion<i class="fa fa-registered"
-        aria-hidden="true"></i> Arm/Hand solutions are designed to empower physical therapists like you to deliver
+      The InMotion<i class="fa fa-registered ic-registered" aria-hidden="true"></i> Arm and InMotion<i
+        class="fa fa-registered ic-registered" aria-hidden="true"></i> Arm/Hand solutions are designed to empower
+      physical therapists like you to deliver
       exceptional care and revolutionize patient outcomes.
     </p>
-    <button type="button" class="btn btn-primary">Learn More</button>
+    <a href="#" type="button" class="btn btn-primary">Learn More</a>
   </div>
   <video width="1076" height="605" controls>
     <source src="./img/example.mp4" type="video/mp4">

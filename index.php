@@ -15,6 +15,7 @@
   <?php require_once("menu.php"); ?>
   <?php require_once("banner.php"); ?>
   <?php require_once("welcome.php"); ?>
+  <?php require_once("faq.php"); ?>
 
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>

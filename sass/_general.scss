@@ -40,6 +40,9 @@ $white: #FFFFFF;
   @extend .btn-base;
   background-color: $white;
   color: $primary;
+  &:hover{
+    color: $primary; 
+  }
 }
 
 h1 {

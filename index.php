@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="sass/bootstrap.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="sass/swiper-bundle.min.css">
 
   <title>Bionic</title>
 </head>
@@ -17,8 +18,11 @@
   <?php require_once("welcome.php"); ?>
   <?php require_once("faq.php"); ?>
   <?php require_once("unlock.php"); ?>
+  <?php require_once("slider.php"); ?>
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>

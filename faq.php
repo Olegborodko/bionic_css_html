@@ -53,15 +53,16 @@
             }
             ?>
             <div class="accordion">
-              <div class="accordion-item" id="heading-<?=$key?>">
+              <div class="accordion-item" id="heading-<?= $key ?>">
                 <button class="btn accordion-title <?= $collapsedValue ?>" data-bs-toggle="collapse"
-                  data-bs-target="#collapse-<?=$key?>" aria-expanded="<?= $collapsed ?>" aria-controls="#collapse-<?=$key?>">
+                  data-bs-target="#collapse-<?= $key ?>" aria-expanded="<?= $collapsed ?>"
+                  aria-controls="#collapse-<?= $key ?>">
                   <div class="minus"></div>
                   <div class="plus"></div>
                   <?= $value['title'] ?>
                 </button>
               </div>
-              <div id="collapse-<?=$key?>" class="collapse <?=$show?>" aria-labelledby="heading-<?=$key?>">
+              <div id="collapse-<?= $key ?>" class="collapse <?= $show ?>" aria-labelledby="heading-<?= $key ?>">
                 <div class="accordion-body">
                   <?= $value['text'] ?>
                 </div>
@@ -71,6 +72,7 @@
           }
           ?>
         </div>
+        <a href="#" type="button" class="btn btn-primary">Request a demo</a>
       </div>
     </div>
   </div>

@@ -16,6 +16,7 @@
   <?php require_once("banner.php"); ?>
   <?php require_once("welcome.php"); ?>
   <?php require_once("faq.php"); ?>
+  <?php require_once("unlock.php"); ?>
 
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>

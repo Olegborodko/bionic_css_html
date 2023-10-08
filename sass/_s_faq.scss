@@ -1,12 +1,12 @@
 .section-faq {
   background-image: url("img/bg_faq.png");
   background-size: cover;
+  margin-bottom: 133px;
 
   h2 {
     color: $primary;
     text-align: center;
     font-family: "Univia Pro";
-    font-style: normal;
     font-weight: 500;
     line-height: 120%;
     padding: 95px 0 80px;
@@ -15,6 +15,9 @@
   #accordion {
     .accordion {
       margin-bottom: 27px;
+      &:last-child{
+        margin-bottom: 47px;
+      }
     }
 
     .accordion-item {
@@ -28,7 +31,6 @@
       color: $primary;
       font-family: "Univia Pro";
       font-size: 28px;
-      font-style: normal;
       font-weight: 500;
       line-height: 120%;
       box-shadow: none;
@@ -79,9 +81,12 @@
       color: $secondary;
       font-family: "Univia Pro";
       font-size: 20px;
-      font-style: normal;
       font-weight: 400;
       line-height: 120%;
     }
+  }
+
+  a.btn{
+    margin:0 0 72px 6px;
   }
 }

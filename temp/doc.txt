@@ -1,11 +1,14 @@
 991, до 992
 
 X мобильная версия
-теги для seo
+X теги для seo
 проверить на валидность страницу
 проверить на скорость загрузки
 X сделать header, footer, section
-video height 605?
+Х video height 605?
+
+1076
+1052
 
 @media (max-width: 991px) {
 

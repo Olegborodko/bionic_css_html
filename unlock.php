@@ -1,4 +1,4 @@
-<div class="section-unlock">
+<section class="section-unlock">
   <div class="container-main">
     <div class="row">
       <div class="col-5">
@@ -21,4 +21,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

@@ -1,4 +1,4 @@
-<div class="section-slider">
+<section class="section-slider">
   <div class="container-main">
     <div class="row">
       <div class="col-12">
@@ -39,4 +39,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

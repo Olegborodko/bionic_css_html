@@ -1,4 +1,4 @@
-<div class="section-welcome">
+<section class="section-welcome">
   <div class="top">
     <h4>
       Welcome to the world of Bionik Labs, where innovation and technology converge to transform the field of
@@ -16,5 +16,4 @@
     <source src="./img/example.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-
-</div>
+</section>

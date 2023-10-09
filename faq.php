@@ -1,4 +1,4 @@
-<div class="section-faq">
+<section class="section-faq">
   <div class="container-main">
     <div class="row">
       <h2>
@@ -76,4 +76,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

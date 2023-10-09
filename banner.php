@@ -1,10 +1,9 @@
-<div class="section-banner">
+<section class="section-banner">
   <div class="container-main">
     <div class="row">
       <div class="col-5">
         <h1>
-          Enhance Upper-Extremity Rehabilitation Results with <span>InMotion<i class="fa fa-registered ic-registered"
-              aria-hidden="true"></i>
+          Enhance Upper-Extremity Rehabilitation Results with <span>InMotion<i class="fa fa-registered ic-registered" aria-hidden="true"></i>
           </span> Robotic Therapy Solutions
         </h1>
         <p>
@@ -16,4 +15,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

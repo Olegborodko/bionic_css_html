@@ -19,6 +19,8 @@
   <?php require_once("faq.php"); ?>
   <?php require_once("unlock.php"); ?>
   <?php require_once("slider.php"); ?>
+  <?php require_once("future.php"); ?>
+  <?php require_once("footer.php"); ?>
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>

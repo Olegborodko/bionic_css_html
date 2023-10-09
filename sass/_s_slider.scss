@@ -46,10 +46,16 @@
   .swiper-button-prev {
     color: $white;
     margin-left: 18px;
+    &:after {
+      font-size: 34px;
+    }
   }
 
   .swiper-button-next {
     color: $white;
     margin-right: 18px;
+    &:after {
+      font-size: 34px;
+    }
   }
 }

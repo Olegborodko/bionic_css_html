@@ -1,4 +1,4 @@
-<div class="container-main">
+<header class="container-main">
   <div class="row">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="section-top-menu">
@@ -40,4 +40,4 @@
       </div>
     </nav>
   </div>
-</div>
+</header>

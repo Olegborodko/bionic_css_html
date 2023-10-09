@@ -1,10 +1,10 @@
 <section class="section-unlock">
   <div class="container-main">
     <div class="row">
-      <div class="col-5">
+      <div class="col-12 col-lg-5">
         <img class="in-motion" src="./img/inMotion.png" alt="motion ARM TLC 2">
       </div>
-      <div class="col-7">
+      <div class="col-12 col-lg-7">
         <div class="text">
           <h2>Unlock the Power of InMotion<i class="fa fa-registered ic-registered" aria-hidden="true"></i> Robotic
             Therapy Solutions</h2>

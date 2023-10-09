@@ -27,7 +27,15 @@
     padding: 14px 0 37px;
   }
 
-  video{
+  video {
     margin: 0 auto;
+  }
+
+  @media (max-width: 991px) {
+    padding-bottom: 60px;
+
+    .top {
+      padding-top: 60px;
+    }
   }
 }

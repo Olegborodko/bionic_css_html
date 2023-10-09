@@ -5,7 +5,7 @@
   <div class="footer-top">
     <div class="container-footer">
       <div class="row">
-        <div class="col-3">
+        <div class="col-12 col-lg-3">
           <ul>
             <li>
               <h5>Clinical Evidence</h5>
@@ -16,7 +16,7 @@
             <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-12 col-lg-3">
           <ul>
             <li>
               <h5>News + Events</h5>
@@ -26,7 +26,7 @@
             <li><a href="#">Press Releases</a></li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-12 col-lg-3">
           <ul>
             <li>
               <h5>Support</h5>
@@ -42,8 +42,8 @@
             <li><a href="#">Login</a></li>
           </ul>
         </div>
-        <div class="col-3">
-          <img src="./img/footer_logo.png" alt="logo">
+        <div class="col-12 col-lg-3">
+          <img class="small-logo" src="./img/footer_logo.png" alt="logo">
           <ul class="headquarters">
             <li class="title">Global Headquarters</li>
             <li class="address">
@@ -52,7 +52,7 @@
               United States
             </li>
             <li class="contact">
-              Tel: +1 617.926.4800
+              Tel: +1 617.926.4800 <br>
               support@bioniklabs.com
             </li>
           </ul>

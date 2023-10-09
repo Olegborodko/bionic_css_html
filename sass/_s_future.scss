@@ -1,4 +1,6 @@
 .section-future {
+  margin-bottom: 157px;
+
   p {
     color: $secondary;
     text-align: center;
@@ -8,6 +10,9 @@
     line-height: 150%;
     max-width: 830px;
     margin: 0 auto;
-    margin-bottom: 157px;
+  }
+
+  @media (max-width: 991px) {
+    margin-bottom: 130px;
   }
 }

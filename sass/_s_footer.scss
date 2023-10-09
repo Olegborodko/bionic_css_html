@@ -113,4 +113,22 @@
     background-position: top;
     background-size: contain;
   }
+
+  @media (max-width: 991px) {
+    .footer-top {
+
+      ul,
+      .member-portal {
+        padding-top: 20px;
+      }
+
+      .headquarters .title{
+        padding-top: 10px;
+      }
+
+      .small-logo{
+        padding-top: 40px;
+      }
+    }
+  }
 }

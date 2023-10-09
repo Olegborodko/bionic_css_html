@@ -46,6 +46,7 @@
   .swiper-button-prev {
     color: $white;
     margin-left: 18px;
+
     &:after {
       font-size: 34px;
     }
@@ -54,8 +55,16 @@
   .swiper-button-next {
     color: $white;
     margin-right: 18px;
+
     &:after {
       font-size: 34px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding-bottom: 60px;
+    .swiper-slide {
+      padding: 60px;
     }
   }
 }

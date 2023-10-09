@@ -1,6 +1,6 @@
 <header class="container-main">
   <div class="row">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-xl navbar-light">
       <div class="section-top-menu">
         <a class="navbar-brand" href="#">
           <img class="logo" src="img/logo.svg" alt="logo" />

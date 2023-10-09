@@ -6,10 +6,10 @@
       </h2>
     </div>
     <div class="row">
-      <div class="col-5">
+      <div class="col-12 col-lg-5">
         <img class="bionik-pc" src="./img/bionik_pc.png" alt="bionik pc">
       </div>
-      <div class="col-7">
+      <div class="col-12 col-lg-7">
         <div id="accordion">
           <?php
           $obj = array(

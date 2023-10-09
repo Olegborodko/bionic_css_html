@@ -12,7 +12,7 @@
     </p>
     <a href="#" type="button" class="btn btn-primary">Learn More</a>
   </div>
-  <video width="1076" height="605" controls>
+  <video width="100%" controls>
     <source src="./img/example.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>

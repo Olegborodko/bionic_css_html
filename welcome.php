@@ -10,9 +10,9 @@
       physical therapists like you to deliver
       exceptional care and revolutionize patient outcomes.
     </p>
-    <a href="#" type="button" class="btn btn-primary">Learn More</a>
+    <a href="#" class="btn btn-primary">Learn More</a>
   </div>
-  <video width="100%" controls>
+  <video controls>
     <source src="./img/example.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>

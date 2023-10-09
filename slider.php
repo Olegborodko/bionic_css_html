@@ -15,7 +15,7 @@
                 elevate your
                 rehabilitation practice, click the button below.
               </p>
-              <a href="#" type="button" class="btn btn-light">Explore InMotion<i class="fa fa-registered ic-registered"
+              <a href="#" class="btn btn-light">Explore InMotion<i class="fa fa-registered ic-registered"
                   aria-hidden="true"></i> Solutions</a>
             </div>
             <div class="swiper-slide">
@@ -29,7 +29,7 @@
                 elevate your
                 rehabilitation practice, click the button below.
               </p>
-              <a href="#" type="button" class="btn btn-light">Explore InMotion<i class="fa fa-registered ic-registered"
+              <a href="#" class="btn btn-light">Explore InMotion<i class="fa fa-registered ic-registered"
                   aria-hidden="true"></i> Solutions</a>
             </div>
           </div>
